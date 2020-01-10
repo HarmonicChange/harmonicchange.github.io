@@ -1,1 +1,1 @@
-View page at [https://harmonicchange.github.io]
+View page at https://harmonicchange.github.io
