@@ -1,8 +1,17 @@
 .icon-link {
-  width: 50px;
+  width: 30px;
   height: auto;
+  padding: 10px;
 }
 
-a{
+.title {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+a {
   text-decoration: none;
 }
