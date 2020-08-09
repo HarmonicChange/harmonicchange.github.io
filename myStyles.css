@@ -2,13 +2,6 @@ a {
   text-decoration: none;
 }
 
-.icon-link {
-  width: 30px;
-  height: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 #title {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -27,4 +20,26 @@ a {
 #buttons-bar {
   text-align: center;
   padding-top: 3%;
+}
+
+.icon-link {
+  width: 25px;
+  height: auto;
+  padding: 5px;
+  transition: 0s; /* Hover off transition */
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+/* TODO: Still doesn't quite look right. If possible, expand the image from the center. */
+.icon-link:hover {
+  width: 31px;
+  margin-left: -6px;
+  margin-top: -6px;
+  transition: .3s ease-in-out; /* Hover on transition */
+}
+
+.icon-link:active {
+  filter: invert(100%);
+  transition: 0s; /* Click transition */
 }
