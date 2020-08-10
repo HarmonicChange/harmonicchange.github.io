@@ -19,24 +19,21 @@ a {
 
 #buttons-bar {
   text-align: center;
+  justify-content: center;
   padding-top: 3%;
 }
 
 .icon-link {
   width: 25px;
   height: auto;
-  padding: 5px;
+  padding: 3px;
   transition: 0s; /* Hover off transition */
   vertical-align: middle;
-  overflow: hidden;
 }
 
-/* TODO: Still doesn't quite look right. If possible, expand the image from the center. */
 .icon-link:hover {
-  width: 31px;
-  margin-left: -6px;
-  margin-top: -6px;
-  transition: .3s ease-in-out; /* Hover on transition */
+  transform: scale(1.2);
+  transition: .15s ease-in-out; /* Hover on transition */
 }
 
 .icon-link:active {
