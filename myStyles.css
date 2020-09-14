@@ -2,31 +2,45 @@ a {
   text-decoration: none;
 }
 
+html {
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100%;
+  overflow: hidden;
+  color: #44272B;
+}
+
 #title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Delius', cursive;
   text-align: center;
-  font-size: 40px;
-  padding-top: 10%;
+  font-size: 64px;
+  padding-top: 8%;
   padding-bottom: 3%;
 }
 
 #blurb {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Delius', cursive;
+  font-size: 40px;
+  font-weight: bold;
   text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 3.5% 3% 3% 3%;
+  line-height: 1.6;
 }
 
 #buttons-bar {
   text-align: center;
   justify-content: center;
-  padding-top: 3%;
+  padding: 1%;
 }
 
 .icon-link {
-  width: 25px;
+  width: 55px;
   height: auto;
-  padding: 3px;
+  padding: 6px;
   transition: 0s; /* Hover off transition */
   vertical-align: middle;
 }
