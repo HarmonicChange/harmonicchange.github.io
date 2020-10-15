@@ -39,6 +39,7 @@ body {
   top: 90%;
   left: 49%;
   animation: bounce 2s infinite;
+  cursor: pointer;
 }
 
 @keyframes bounce {
