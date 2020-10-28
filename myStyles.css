@@ -69,8 +69,7 @@ body {
   text-align: center;
   position: absolute;
   top: 30%;
-  padding-left: 20%;
-  padding-right: 20%;
+  width: 100%;
 }
 
 #buttons-bar {
