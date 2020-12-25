@@ -16,14 +16,14 @@ body {
   background-attachment: fixed;
   height: 100%;
   width: 100%;
-  color: #44272B;
+  color: #593049;
   position: absolute;
   padding: 0;
   margin: 0;
 }
 
 #title {
-  font-family: 'Delius', cursive;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 72px;
   position: absolute;
