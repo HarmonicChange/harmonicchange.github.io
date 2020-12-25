@@ -65,7 +65,8 @@ body {
   font-size: 24px;
   line-height: 1.6;
   text-align: center;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #my-links {
@@ -75,4 +76,28 @@ body {
   top: 40%;
   text-align: center;
   width: 100%;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url("bg-mobile.png");
+    background-size: contain;
+  }
+
+  #down-arrow {
+    width: 5%;
+  }
+
+  #title {
+    font-size: 10vw;
+  }
+
+  #blurb {
+    width: 90%;
+    font-size: 4vw;
+  }
+
+  #my-links{
+    font-size: 4vw;
+  }
 }
